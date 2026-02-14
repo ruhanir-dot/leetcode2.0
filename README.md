@@ -7,4 +7,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0196-delete-duplicate-emails](https://github.com/ruhanir-dot/leetcode2.0/tree/master/0196-delete-duplicate-emails) |
+| [2223-the-number-of-rich-customers](https://github.com/ruhanir-dot/leetcode2.0/tree/master/2223-the-number-of-rich-customers) |
 <!---LeetCode Topics End-->
