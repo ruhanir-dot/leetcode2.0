@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1179-game-play-analysis-i](https://github.com/ruhanir-dot/leetcode2.0/tree/master/1179-game-play-analysis-i) |
 | [1291-immediate-food-delivery-i](https://github.com/ruhanir-dot/leetcode2.0/tree/master/1291-immediate-food-delivery-i) |
 | [1453-ads-performance](https://github.com/ruhanir-dot/leetcode2.0/tree/master/1453-ads-performance) |
+| [1625-group-sold-products-by-the-date](https://github.com/ruhanir-dot/leetcode2.0/tree/master/1625-group-sold-products-by-the-date) |
 | [1892-find-total-time-spent-by-each-employee](https://github.com/ruhanir-dot/leetcode2.0/tree/master/1892-find-total-time-spent-by-each-employee) |
 | [1948-rearrange-products-table](https://github.com/ruhanir-dot/leetcode2.0/tree/master/1948-rearrange-products-table) |
 | [2057-count-salary-categories](https://github.com/ruhanir-dot/leetcode2.0/tree/master/2057-count-salary-categories) |
