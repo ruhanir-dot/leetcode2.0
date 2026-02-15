@@ -1,25 +1,16 @@
 import pandas as pd
 
 def daily_leads_and_partners(daily_sales: pd.DataFrame) -> pd.DataFrame:
-    daily_unique_leads = pd.DataFrame(
-        daily_sales.drop_duplicates(subset =['date_id', 'make_name','lead_id'])
-        .groupby(['make_name','date_id'])
-        .agg(
-            unique_leads = ('lead_id', 'count'),
-        )
-        ).reset_index().reset_index()
-    daily_unique_partners = pd.DataFrame(
-        daily_sales.drop_duplicates(subset =['date_id', 'make_name','partner_id'])
-        .groupby(['make_name','date_id'])
-        .agg(
-            unique_partners = ('partner_id', 'count'),
-        )
-        ).reset_index().reset_index()
-    
-    output_df = pd.merge(daily_unique_leads, daily_unique_partners, on = 'index', how = 'left').rename(
+    filtered_df = pd.DataFrame(
+        daily_sales.groupby(['date_id', 'make_name']).aggregate({
+            'lead_id' : 'nunique',
+            'partner_id' : 'nunique'
+        })
+    ).reset_index().rename(
         columns = {
-            'date_id_x' : 'date_id', 
-            'make_name_x' : 'make_name'
+            'lead_id' : 'unique_leads',
+            'partner_id' : 'unique_partners'
         }
     )
-    return output_df[['date_id', 'make_name', 'unique_leads', 'unique_partners']]
+
+    return filtered_df
