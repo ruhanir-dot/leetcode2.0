@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/ruhanir-dot/leetcode2.0/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1625-group-sold-products-by-the-date](https://github.com/ruhanir-dot/leetcode2.0/tree/master/1625-group-sold-products-by-the-date) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/ruhanir-dot/leetcode2.0/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
+| [1801-average-time-of-process-per-machine](https://github.com/ruhanir-dot/leetcode2.0/tree/master/1801-average-time-of-process-per-machine) |
 | [1827-invalid-tweets](https://github.com/ruhanir-dot/leetcode2.0/tree/master/1827-invalid-tweets) |
 | [1837-daily-leads-and-partners](https://github.com/ruhanir-dot/leetcode2.0/tree/master/1837-daily-leads-and-partners) |
 | [1892-find-total-time-spent-by-each-employee](https://github.com/ruhanir-dot/leetcode2.0/tree/master/1892-find-total-time-spent-by-each-employee) |
