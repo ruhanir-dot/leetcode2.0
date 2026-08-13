@@ -33,4 +33,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2057-count-salary-categories](https://github.com/ruhanir-dot/leetcode2.0/tree/master/2057-count-salary-categories) |
 | [2223-the-number-of-rich-customers](https://github.com/ruhanir-dot/leetcode2.0/tree/master/2223-the-number-of-rich-customers) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/ruhanir-dot/leetcode2.0/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/ruhanir-dot/leetcode2.0/tree/master/0001-two-sum) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/ruhanir-dot/leetcode2.0/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
